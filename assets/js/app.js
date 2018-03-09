@@ -25,45 +25,34 @@ document.body.addEventListener('keypress', function(event){
   }
   if(event.keyCode === 115){
     q.play();
-    s.classList.toggle('yellow');
+    s.classList.toggle('playing');
   }
   if(event.keyCode === 100){
     w.play();
-    d.classList.toggle('yellow');
+    d.classList.toggle('playing');
   }
   if(event.keyCode === 102){
     e.play();
-    f.classList.toggle('yellow');
+    f.classList.toggle('playing');
   }
   if(event.keyCode === 103){
     r.play();
-    g.classList.toggle('yellow');
+    g.classList.toggle('playing');
   }
   if(event.keyCode === 104){
     t.play();
-    h.classList.toggle('yellow');
+    h.classList.toggle('playing');
   }
   if(event.keyCode === 106){
     y.play();
-    j.classList.toggle('yellow');
+    j.classList.toggle('playing');
   }
   if(event.keyCode === 107){
     u.play();
-    j.classList.toggle('yellow');
+    j.classList.toggle('playing');
   }
   if(event.keyCode === 108){
     i.play();
-    l.classList.toggle('yellow');
+    l.classList.toggle('playing');
   }
 });
-
-function flicker(){
-  var count = 0;
-  var intId = setInterval(function(){
-    count++;
-    this.keyCode.style.border = "yellow"
-    if(count === 2){
-      clearInterval(intId);
-    }
-},200);
-};

@@ -15,16 +15,16 @@ p{
 .square {
   background-color: rgba(255, 0, 0, 0.4);
   width: 10%;
-  height: 120px;
+  height: 110px;
   padding: 5px;
   margin: .10%;
   float: left;
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
   border: 3px solid black;
 }
 
 .playing {
   border: yellow;
-  font-size: 95px;
+  font-size: 90px;
 }
