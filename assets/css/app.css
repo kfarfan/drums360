@@ -7,14 +7,24 @@ body {
   margin-top: 20%;
 }
 
+p{
+  font-size: 20px;
+  margin-top: -10px;
+}
+
 .square {
   background-color: rgba(255, 0, 0, 0.4);
   width: 10%;
-  height: 100px;
+  height: 120px;
   padding: 5px;
   margin: .10%;
   float: left;
   text-align: center;
   font-size: 90px;
   border: 3px solid black;
+}
+
+.playing {
+  border: yellow;
+  font-size: 95px;
 }
