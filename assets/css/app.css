@@ -1,0 +1,20 @@
+body {
+  background-image: url('bg.jpeg');
+}
+
+#container {
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.square {
+  background-color: rgba(255, 0, 0, 0.4);
+  width: 10%;
+  height: 100px;
+  padding: 5px;
+  margin: .10%;
+  float: left;
+  text-align: center;
+  font-size: 90px;
+  border: 3px solid black;
+}
